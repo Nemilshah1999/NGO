@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Donate</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<style type="text/css">
+		
+		#heading{
+				font-family: 'Fredericka the Great', cursive;
+				font-size: 75px;
+				color:white; 
+				text-align:center; 
+				margin-bottom: 50px;
+			}
+		body{
+			margin-top:70px;
+			background-image: url(https://images.unsplash.com/photo-1441422454217-519d3ee81350?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c6b9cd37b276dc547554e152446cb6eb&auto=format&fit=crop&w=889&q=80);
+			background-size: cover;
+			background-position: center;
+			background-attachment: fixed;
+		}
+		#OPA{
+			opacity: 0.9;
+			color :white;
+			font-family: 'Montserrat', sans-serif;
+		}
+		.blank{
+			width:800px;
+		}
+	</style>
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+	  <div class="container">
+	    <div class="navbar-header">
+	       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button> 
+	      <a class="navbar-brand"><i class="fa fa-tree"></i> GGO</a>
+	    </div>
+
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav">
+	       <li><a href="http://127.0.0.1:5000/">Home</a></li>
+	        <li><a href="http://127.0.0.1:5000/about">About</a></li>
+	        <li><a href="http://127.0.0.1:5000/project">Our Project</a></li>
+	        <li><a href="http://127.0.0.1:5000/issue">The Issue</a></li>
+	        <li><a href="http://127.0.0.1:5000/contact">Contact</a></li>
+	      </ul>
+	      <ul class="nav navbar-nav navbar-right">
+	        <li  class="active"><a href="http://127.0.0.1:5000/donate">Donate</a></li>
+	        
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+
+	<h1 id="heading">Donate Or Adopt A Tree</h1>
+	<div class="container">
+		<form id="OPA" class="form-horizontal" method="post">
+		  <div class="form-group">
+		    <label for="Name" class=" col-sm-3 col-sm-offset-1 control-label">Name :</label>
+		    <div class="col-sm-5">
+		      <input type="text" class="form-control" for="Name" name="Name" placeholder="Name">
+		    </div>
+		  </div>		  	
+		  <div class="form-group">
+		    <label for="inputEmail3" class=" col-sm-3 col-sm-offset-1 control-label">Email :</label>
+		    <div class="col-sm-5">
+		      <input type="email" class="form-control" name="Email" id="inputEmail3" placeholder="Email">
+		    </div>
+		  </div>
+		   <div class="form-group">
+		    <label for="telephone" class=" col-sm-3 col-sm-offset-1 control-label">Phone no. :</label>
+		    <div class="col-sm-5">
+		      <input type="tel" class="form-control" name="Phone" id="telephone" placeholder="Phone">
+		    </div>
+		  </div>
+		   <div class="form-group">
+		    <label for="addr" class=" col-sm-3 col-sm-offset-1 control-label">Address :</label>
+		    <div class="col-sm-5">
+		    	<textarea name="Addr" class="form-control" id="addr" rows="4" placeholder="Address"></textarea>
+		    </div>
+		  </div>
+		  <div class="form-group">
+		    <label for="Aadhar" class="col-sm-3 col-sm-offset-1 control-label">Aadhar no. :</label>
+		    <div class="col-sm-5">
+		      <input type="text" class="form-control" id="Aadhar" name="Aadhar" placeholder="Aadhar">
+		    </div>
+		  </div>
+		  <br>
+		  <div class="form-group">
+		    <div class="col-sm-1 col-sm-offset-8">
+		      <button type="Donate" class="btn btn-default">Let Us Contact You!</button>
+		    </div>
+		  </div>
+		</form>
+		<br><br>
+	</div>
+
+<script src="http://code.jquery.com/jquery-2.1.4.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
