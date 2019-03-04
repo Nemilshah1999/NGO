@@ -1,2 +1,2 @@
-# NGO
-A basic Template for an NGO website using html, css, bootstrap, flask and sqlite
+# Go Green Organization NGO
+A website for an NGO with its info and an option to Donate and Volenteer
